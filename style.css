@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+nav .links {
+  display: flex;
+  list-style: none;
+  width: 600px;
+  justify-content: space-around;
+}
+
+nav .links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  background-image: url(2000_56fcf427ba4bc.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 0 100px 0;
+}
+
+.home .black1 {
+  background-color: black;
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.home .data_home {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.home .data_home h2 {
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-weight: 100;
+  font-family: "Caveat", Arial, sans-serif;
+}
+
+.home .data_home h3 {
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.home .data_home h4 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.home .data_home button {
+  background-color: #e95095;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 20px 30px;
+  border: 0;
+}
+
+.tickets h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.tickets .hr {
+  width: 50px;
+  margin-left: 48%;
+  background-color: #e95095;
+  height: 2px;
+  margin-top: 20px;
+}
+
+.tickets .data_tickets {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.tickets .data_tickets .datial_tickets {
+  width: 40%;
+}
+
+.tickets .data_tickets .datial_tickets .p1 {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid rgb(128, 128, 128);
+  outline: 1px solid black;
+  outline-offset: -20px;
+}
+
+.tickets .data_tickets .datial_tickets hr {
+  margin: 20px;
+  background-color: #fafafa;
+  height: 1px;
+}
+
+.tickets .data_tickets .datial_tickets h3 {
+  font-weight: 600;
+}
+
+.tickets .data_tickets .datial_tickets button {
+  background-color: #e95095;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0;
+}
+
+.tickets .data_tickets img {
+  height: 400px;
+}
+
+.acts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 0;
+}
+
+.acts .data_acts {
+  text-align: center;
+}
+
+.acts .data_acts img {
+  height: 200px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.acts .data_acts h2 {
+  margin: 10px 0;
+}
+
+.acts .data_acts hr {
+  width: 70px;
+  margin-left: 37%;
+  background-color: #e95095;
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.acts .data_acts p {
+  padding: 0 50px;
+}
+
+.bg_acts {
+  background-image: url(a.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 0 100px 0;
+}
+
+.bg_acts .data_bg_acts {
+  text-align: center;
+  color: white;
+}
+
+.bg_acts .data_bg_acts h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.bg_acts .data_bg_acts button {
+  background-color: #e95095;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 0;
+}
+
+.contact {
+  line-height: 2;
+}
+
+.contact .datial_contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact hr {
+  width: 50px;
+  margin-left: 48%;
+  background-color: #e95095;
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact .datial_contact {
+}
+
+.contact .datial_contact .data_contact {
+  text-align: center;
+}
+
+.contact .datial_contact .data_contact a {
+  color: #e95095;
+}
+
+.contact .form_contact input {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.contact .form_contact .email {
+  width: 96%;
+}
+
+.contact .form_contact textarea {
+  width: 100%;
+  padding: 40px 0 20px 0;
+  font-size: 20px;
+}
